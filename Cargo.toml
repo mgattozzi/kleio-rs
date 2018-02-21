@@ -1,0 +1,22 @@
+[package]
+name = "kleio-rs"
+version = "0.1.0"
+authors = ["Michael Gattozzi <mgattozzi@gmail.com>"]
+description = "Transcribing Rust's history as time.next()"
+documentation = "https://docs.rs/kleio-rs"
+homepage = "https://github.com/mgattozzi/kleio-rs"
+repository = "https://github.com/mgattozzi/kleio-rs"
+readme = "README.md"
+keywords = ["history", "rust", "store", "save", "document"]
+categories = []
+license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "mgattozzi/ferris-says", branch = "master" }
+appveyor = { repository = "mgattozzi/ferris-says", branch = "master", service = "github" }
+
+[lib]
+name = "kleio_rs"
+path = "src/lib.rs"
+
+[dependencies]
